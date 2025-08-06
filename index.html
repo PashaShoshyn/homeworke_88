@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Закладки, Форма та Продукти</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" href="./main.js" defer></script>
+</head>
+<body>
+  <!-- Закладки -->
+  <div class="container" id="bookmarkApp">
+    <h1>Закладки</h1>
+    <input type="text" id="bookmarkInput" placeholder="URL">
+    <button id="addBookmarkBtn">Додати</button>
+    <ul id="bookmarkList"></ul>
+  </div>
+
+  <!-- Форма -->
+  <div class="container" id="formApp">
+    <h1>Форма</h1>
+    <input type="text" id="username" placeholder="Логін">
+    <input type="password" id="password" placeholder="Пароль">
+    <button id="saveBtn">Зберегти</button>
+  </div>
+
+  <!-- Продукти -->
+  <div class="container" id="productsApp">
+    <h1>Список продуктів</h1>
+    <input type="text" id="searchInput" placeholder="Пошук...">
+    <ul class="product-list" id="productList"></ul>
+  </div>
+</body>
+</html>
